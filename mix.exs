@@ -33,9 +33,9 @@ defmodule Taxjar.Mixfile do
 
   defp package do
     [
-      maintainers: ["ChrisYammine"],
+      maintainers: ["ChrisYammine", "Nicholas Henry"],
       licenses: ["Apache-2.0"],
-      links: %{"GitHub" => "https://github.com/ChrisYammine/taxjar-elixir"}
+      links: %{"GitHub" => "https://github.com/hollar/taxjar-elixir"}
     ]
   end
 end
