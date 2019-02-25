@@ -9,7 +9,7 @@ defmodule Taxjar.Mixfile do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       package: package(),
-      description: "A client library for use of the TaxJar API.",
+      description: "A client library for use of the TaxJar API."
     ]
   end
 
@@ -27,7 +27,7 @@ defmodule Taxjar.Mixfile do
       {:poison, "~> 3.0"},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:bypass, "~> 0.8", only: :test},
-      {:mix_test_watch, ">= 0.0.0", only: :dev},
+      {:mix_test_watch, ">= 0.0.0", only: :dev}
     ]
   end
 
