@@ -48,7 +48,7 @@ defmodule Taxjar.Models.Rates do
   end
 
   defp convert_rates_to_floats(map) do
-    Enum.reduce(map,%{}, fn
+    Enum.reduce(map, %{}, fn
       {k, v}, acc when k in @convert_to_float -> Map.put(acc, k, to_float(v))
       {k, v}, acc -> Map.put(acc, k, v)
     end)
